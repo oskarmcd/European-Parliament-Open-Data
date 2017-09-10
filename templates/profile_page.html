@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>what's good europe</title>
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	</head>
+	<body>
+		<div class="container">
+		    <div class="row" style="padding-top:5%;">
+	      		<div class="col s12 card-panel hoverable" style="padding: 3% 0 3% 0;">
+	      			<div class="col s4 center-align">
+	      				<img class="responsive-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0UtkzHRWF6zyNTdin4MqZ2KYJcmnp2t7LrzVbPAGQaMhD_iZz">
+	      			</div>
+	      			<div class="col s8">
+		      			<span class="flow-text">
+							<ul>
+								<li>{{ name }}</li>
+								<li>{{ group }}</li>
+								<li>{{ country }}</li>
+								<li><a href="{{ twitter_link }}">{{ twitter }}</a></li>
+							</ul>
+						</span>
+					</div>
+	      		</div>
+	    	</div>
+		    <div class="row">
+	      		<div class="col s4" style="border:1px solid black;">
+	      			<span class="flow-text">This div is 12-columns wide on all screen sizes</span>
+	  			</div>
+	      		<div class="col s8" style="border:1px solid black">
+	      			<span class="flow-text">
+						<ul>
+							<li>{{ name }}</li>
+							<li>{{ group }}</li>
+							<li>{{ country }}</li>
+							<li><a href="{{ twitter_link }}">{{ twitter }}</a></li>
+						</ul>
+					</span>
+	      		</div>
+	    	</div>
+    	</div>
+	</body>
+</html>
